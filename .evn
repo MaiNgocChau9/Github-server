@@ -1,0 +1,6 @@
+EMAIL_USER=maingocchauschatbot@gmail.com
+EMAIL_PASSWORD=treywuqlwfgglzeu
+IMAP_SERVER=imap.gmail.com
+IMAP_PORT=993
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
