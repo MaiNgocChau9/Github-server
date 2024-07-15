@@ -70,7 +70,7 @@ timezone = pytz.timezone("Asia/Ho_Chi_Minh")
 def job():
     now = datetime.now(timezone)
     print(now.hour, now.minute, now.second)
-    if now.hour == 10 and now.minute == 41 and now.second == 40:
+    if now.hour == 6 and now.minute == 0 and now.second == 40:
         send_email()
 
 # Lên lịch kiểm tra mỗi phút
