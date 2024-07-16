@@ -95,6 +95,7 @@ def check_email():
 
             # Gọi hàm run_ollama để trả lời email
             print("Generating...")
+            print(body)
             response_body = run_ollama(body)
             print(response_body)
             response_subject = f"Re: {subject}"
